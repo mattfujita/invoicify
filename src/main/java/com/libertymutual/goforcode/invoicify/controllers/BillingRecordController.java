@@ -1,0 +1,10 @@
+package com.libertymutual.goforcode.invoicify.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/billing-records")
+public class BillingRecordController {
+
+}
