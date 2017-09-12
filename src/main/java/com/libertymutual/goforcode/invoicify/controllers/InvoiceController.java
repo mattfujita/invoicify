@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("")
+@RequestMapping("/invoices")
 public class InvoiceController {
 	
-	@GetMapping("/invoices")
+	@GetMapping("")
 	public String invoices() {
 		return "invoices/list";
 	}
