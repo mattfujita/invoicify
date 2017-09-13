@@ -12,5 +12,10 @@ public class InvoiceController {
 	public String invoices() {
 		return "invoices/list";
 	}
+	
+	@GetMapping("/list")
+	public String invoicesList() {
+		return "invoices/list";
+	}
 
 }

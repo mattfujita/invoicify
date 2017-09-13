@@ -12,5 +12,10 @@ public class BillingRecordController {
 	public String billingRecords() {
 		return "billing-records/list";
 	}
+	
+	@GetMapping("/list")
+	public String billingRecordsList() {
+		return "billing-records/list";
+	}
 
 }
